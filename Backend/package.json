@@ -1,0 +1,32 @@
+{
+  "name": "gama",
+  "version": "1.0.0",
+  "description": "mern project",
+  "keywords": [
+    "Yash"
+  ],
+  "homepage": "https://github.com/ykahsahde/gama#readme",
+  "bugs": {
+    "url": "https://github.com/ykahsahde/gama/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ykahsahde/gama.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.2.2",
+    "nodemon": "^3.1.14"
+  }
+}
